@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="UserEditText">
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">@color/finalBlue</item>
+        <item name="colorControlHighlight">#FFFFFF</item>
+    </style>
+    <style name="PasswordEditText">
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">@color/finalBlue</item>
+        <item name="colorControlHighlight">#FFFFFF</item>
+    </style>
+    <style name="loginButton">
+        <item name="colorPrimary">@color/finalBlue</item>
+    </style>
+    <style name="textButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/finalBlue</item>
+        <item name="rippleColor">@color/black</item>
+    </style>
+
+<!--    <style name="Theme.App" parent="Theme.MaterialComponents.*">-->
+<!--        ...-->
+<!--        <item name="colorPrimary">@color/shrine_pink_100</item>-->
+<!--        <item name="colorOnPrimary">@color/shrine_pink_900</item>-->
+<!--        <item name="textAppearanceButton">@style/TextAppearance.App.Button</item>-->
+<!--        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>-->
+<!--    </style>-->
+</resources>
